@@ -1,0 +1,49 @@
+.main {
+  position: absolute;
+  width: 520px;
+  background-color: white;
+  top: 130px;
+  left: 420px;
+  border-radius: 25px;
+  color: #545454;
+}
+.stacks-div {
+  height: 400px;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding: 0px 40px;
+}
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(202, 202, 202);
+  border-radius: 7px;
+}
+.profile_img {
+  width: 30px;
+  height: 30px;
+  aspect-ratio: 3/2;
+  border-radius: 100%;
+}
+.curve_div {
+  width: 100.5%;
+  height: 400px;
+  background: linear-gradient(90deg, #702cc8, #5142c1, #3f55c8);
+}
+.curve1 {
+  position: absolute;
+  top: 28%;
+}
+.curve2 {
+  position: absolute;
+  top: 30%;
+}
+.account_heading {
+  text-align: center;
+  padding: 20px;
+  background-color: #f6f6f6;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  margin-bottom: 10px;
+}

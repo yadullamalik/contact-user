@@ -1,0 +1,77 @@
+.profile_div {
+  width: 300px;
+  text-align: center;
+  padding-right: 30px;
+}
+.profile_desc_div1,
+.profile_desc_div2,
+.profile_address_div {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.profile_desc_div1 > div,
+.profile_desc_div2 > div {
+  width: 50%;
+}
+.profile_desc_div1 > div > p {
+  height: 25px;
+}
+.profile_desc_div2 > div > p {
+  height: 50px;
+}
+.profile_desc_div1 > div:nth-child(1),
+.profile_desc_div2 > div:nth-child(1),
+.profile_address_div > div:nth-child(1) {
+  text-align: right;
+}
+.profile_desc_div1 > div:nth-child(2),
+.profile_desc_div2 > div:nth-child(2),
+.profile_address_div > div:nth-child(2) {
+  text-align: left;
+}
+.company_title {
+  height: 0px;
+}
+.profile_image {
+  width: 170px;
+  border-radius: 50%;
+}
+.profile_address_div {
+  width: 300px;
+}
+.profile_address_div > div > p {
+  height: 15px;
+}
+.address_title {
+  height: 10px;
+  margin-top: 0px;
+}
+.data_span {
+  color: rgb(99, 98, 98);
+  font-size: 20px;
+}
+.span {
+  color: rgb(150, 149, 149);
+  font-size: 20px;
+}
+.map {
+  width: 500px;
+  height: 300px;
+  border-radius: 15px;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+.latandlon_div {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+.latandlon_data_span {
+  color: rgb(65, 64, 64);
+  font-size: 12px;
+}
+.latandlon_span {
+  color: rgb(150, 149, 149);
+  font-size: 12px;
+}

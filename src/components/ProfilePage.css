@@ -1,0 +1,39 @@
+.profile_page_main_div {
+  display: flex;
+  gap: 40px;
+  padding-top: 45px;
+}
+.circle1,
+.circle2,
+.circle3,
+.circle4 {
+  width: 20px;
+  padding: 7px;
+  position: absolute;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  left: 250px;
+  background-color: white;
+  color: rgb(150, 149, 149);
+}
+.circle1 {
+  top: 300px;
+}
+.circle2 {
+  top: 350px;
+}
+.circle3 {
+  top: 400px;
+}
+.circle4 {
+  top: 450px;
+}
+.hr {
+  width: 90%;
+}
+.chat {
+  position: fixed;
+  bottom: 0px;
+  right: 50px;
+  cursor: pointer;
+}
